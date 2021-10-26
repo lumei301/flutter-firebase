@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285450071889",
+    "project_id": "lumei-digital",
+    "storage_bucket": "lumei-digital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285450071889:android:23aa9a2135e181846aed70",
+        "android_client_info": {
+          "package_name": "com.lumeidigital.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285450071889-mrr607khkjds841vl7pco3l84v7ig2c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtyVu3JQDBR698W-d29JhyFus89Cd0DHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285450071889-mrr607khkjds841vl7pco3l84v7ig2c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
