@@ -1,5 +1,5 @@
 class UserModel {
   final String uid;
 
-  UserModel({this.uid});
+  UserModel({required this.uid});
 }

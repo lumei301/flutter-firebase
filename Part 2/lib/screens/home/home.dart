@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase/constants/constants.dart';
 
 class Home extends StatelessWidget {
    
@@ -7,8 +8,8 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.brown[50],
       appBar: AppBar(
-          title: Text('Lumei Digital'),
-          backgroundColor: Colors.brown[400],
+          title: const Text('Lumei Digital'),
+          backgroundColor: primaryColor,
           elevation: 0.0,
            
         ),

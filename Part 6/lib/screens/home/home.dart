@@ -1,28 +1,34 @@
-import 'package:firebase/services/authService.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase/constants/constants.dart';
+import 'package:firebase/services/auth_service.dart';
 
 class Home extends StatelessWidget {
+  const Home({Key? key}) : super(key: key);
 
-  final AuthService _authService = AuthService();
    
- @override
+  @override
   Widget build(BuildContext context) {
+    final AuthService _authService = AuthService();
     return Scaffold(
-        backgroundColor: Colors.brown[50],
-        appBar: AppBar(
-          title: Text('Lumei Digital'),
-          backgroundColor: Colors.brown[400],
-          elevation: 0.0,
-          actions: <Widget>[
-            FlatButton.icon(
+      backgroundColor: secondary,
+      appBar: AppBar(
+        title: const Text('Lumei Digital'),
+        backgroundColor: primary,
+        elevation: 0.0,
+        actions: <Widget>[
+            TextButton.icon(              
               icon: Icon(Icons.person),
+              style: TextButton.styleFrom(
+                primary: secondary,
+              ),
               label: Text('Sign out'),
               onPressed: ()async {
                 await _authService.signOut();
               },
             )
-          ],
-        ),
-      );
+          ], 
+      ),
+       
+    );
   }
 }

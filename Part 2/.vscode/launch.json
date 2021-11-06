@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Part 2",
+            "name": "firebase",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "Part 2 (profile mode)",
+            "name": "firebase (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
