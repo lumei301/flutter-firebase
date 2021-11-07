@@ -3,7 +3,10 @@
  
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://medium.com/@lumeilin301/flutter-firebase-app-tutorial-part-1-get-started-95cce84939c3)
 
-Create a flutter authenticate app in 10 mins in 2021 by using firebase as the back-end. This repo will show you how to enable Firebase Sign in/out and then use Stream and Provider in Flutter to direct users to the right screen like a pro.
+Create a flutter authenticate app in 10 mins by using firebase as the back-end. This repo will show you how to enable Firebase authenticate feature in Flutter and then direct users to the right screen.
+
+![Flutter tutorial for beginners step by step using Firebase — Lumei Digital](https://github.com/lumei301/flutter-firebase/blob/main/Flutter%20tutorial%20for%20beginners%20-%20Lumei%20Digital.gif "Flutter tutorial for beginners step by step using Firebase")
+
 
 ## Features
 - ✨[Flutter & Firebase App Tutorial — Part 1 Get Started](https://medium.com/@lumeilin301/flutter-firebase-app-tutorial-part-1-get-started-95cce84939c3) ✨
